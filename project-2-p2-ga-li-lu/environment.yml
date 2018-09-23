@@ -1,0 +1,16 @@
+name: sunion
+channels:
+- defaults
+dependencies:
+- IPython=6.1.0
+- python=3.6.3
+- numpy=1.13.1
+- pandas=0.20.3
+- matplotlib=2.0.2
+- seaborn=0.8.0
+- scipy=0.19.1
+- pip=9.0.1
+- pip:
+  - watermark==1.5.0
+  - nltk==3.2.4
+  - sklearn==1.5.0
